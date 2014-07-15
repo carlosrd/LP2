@@ -9,16 +9,16 @@ Structured programming. Implementing abstract data types. Programming with abstr
 
 Application to manage a football tournament. Enter the teams and the results of matches and application automatically creates a classification.
 
-### Proyecto 2 - Polylines Editor
+### Project 2 - Polylines Editor
  
 Introduction to Object-Oriented Programming in C++, binary files, templates, friend functions and event programming. Application to generate graphs composed only by lines.
 
-### Proyecto 3 - Graphics Editor
+### Project 3 - Graphics Editor
  
 Introduction to inheritance, polymorphism, and exception handling. The tool allows you to compose graphics combining different types of drawings that can be selected (rectangles, ellipses, etc.) and configured (size, line width, fill, color, etc).
 You can also save drawings into a specific format for later retrieval
 
-### Proyecto 4 - Indice generado a partir de un texto
+### Project 4 - Generated index from a text
 
 Using dynamic structures, binary search trees and exception handling for error handling. This application generate an index based on the words of a text.
 
