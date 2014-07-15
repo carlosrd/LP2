@@ -1,0 +1,103 @@
+Functions called:
+ vsnprintf (152 times)
+ delete (1144 times)
+ SysReallocMem (161 times)
+ SysFreeMem (2444 times)
+ SysGetMem (2444 times)
+ realloc (1 times)
+ memcpy (63 times)
+ delete[] (10 times)
+ free (32 times)
+ new[] (24 times)
+ new (1151 times)
+ calloc (8 times)
+ malloc (23 times)
+Resource types used:
+ object array (24 allocs, 17 max)
+ object (1151 allocs, 175 max)
+ memory block (2476 allocs, 618 max)
+Modules used:
+ 00400000 05/30/2011 15:44:32 C:\hlocal\Pr6\Pr6\Proyecto\Practica6.exe
+ 02410000 06/02/2007 03:08:18 C:\Program Files (x86)\ASUS\ASUS Data Security
+ Manager\ShlExt\x86\OverlayIconShlExt1.dll
+ 0CD00000 01/31/2000 06:00:00 C:\Program Files
+ (x86)\Borland\CBuilder5\Bin\CG32.DLL
+ 10000000 06/15/2007 20:28:36 C:\Program Files (x86)\ASUS\ASUS Data Security
+ Manager\ShlExt\x86\OverlayIconShlExt.dll
+ 32500000 01/31/2000 06:00:00 C:\Program Files
+ (x86)\Borland\CBuilder5\Bin\CC3250MT.DLL
+ 40000000 01/24/2000 06:01:00 C:\Windows\system32\VCL50.BPL
+ 41000000 01/31/2000 06:00:00 C:\Program Files
+ (x86)\Borland\CBuilder5\Bin\BORLNDMM.DLL
+ 6A9C0000 04/08/2011 00:43:48 C:\Windows\system32\ieframe.DLL
+ 6B380000 11/20/2010 14:21:28 C:\Windows\System32\StructuredQuery.dll
+ 6B3E0000 07/14/2009 03:15:16 C:\Windows\system32\EhStorShell.dll
+ 6B4C0000 11/20/2010 14:18:02 C:\Windows\AppPatch\AcGenral.DLL
+ 6B6E0000 07/14/2009 03:16:14 C:\Windows\system32\oledlg.dll
+ 6B710000 11/20/2010 14:21:06 C:\Windows\system32\samcli.dll
+ 6C740000 11/20/2010 14:21:16 C:\Windows\system32\SHDOCVW.dll
+ 6F2C0000 07/14/2009 03:16:16 C:\Windows\system32\slc.dll
+ 6F2D0000 11/20/2010 14:18:26 C:\Windows\system32\cscapi.dll
+ 6F2E0000 11/20/2010 14:20:48 C:\Windows\system32\ntshrui.dll
+ 70270000 07/14/2009 03:16:14 C:\Windows\system32\OLEACC.dll
+ 702B0000 07/14/2009 03:15:44 C:\Windows\system32\MSACM32.dll
+ 72E00000 11/20/2010 14:18:24
+ C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82
+.7601.17514_none_ec83dffa859149af\comctl32.dll
+ 73150000 11/20/2010 14:18:04 C:\Windows\system32\apphelp.dll
+ 731A0000 11/20/2010 14:20:58 C:\Windows\system32\PROPSYS.dll
+ 732A0000 11/20/2010 14:21:04 C:\Windows\system32\RpcRtRemote.dll
+ 732B0000 07/14/2009 03:17:56 C:\Windows\system32\rsaenh.dll
+ 732F0000 07/14/2009 03:15:08 C:\Windows\system32\CRYPTSP.dll
+ 73400000 07/14/2009 03:16:12 C:\Windows\system32\ntmarta.dll
+ 73430000 07/14/2009 03:16:18 C:\Windows\system32\version.dll
+ 73490000 11/20/2010 14:21:38 C:\Windows\system32\WINMM.dll
+ 73550000 07/14/2009 03:15:14 C:\Windows\system32\dwmapi.dll
+ 73570000 11/20/2010 14:16:52 C:\Windows\system32\winspool.drv
+ 736D0000 07/14/2009 03:11:26 C:\Windows\system32\UxTheme.dll
+ 73770000 11/20/2010 14:21:28 C:\Windows\system32\srvcli.dll
+ 73790000 11/20/2010 14:20:30 C:\Windows\system32\netutils.dll
+ 73890000 07/14/2009 03:16:22 C:\Windows\system32\wsock32.dll
+ 73C30000 07/14/2009 03:16:16 C:\Windows\system32\sfc_os.DLL
+ 73C40000 07/14/2009 03:10:24 C:\Windows\system32\sfc.dll
+ 74B40000 11/20/2010 14:21:38 C:\Windows\system32\WindowsCodecs.dll
+ 74CC0000 07/14/2009 03:15:42 C:\Windows\system32\mpr.dll
+ 74D10000 11/20/2010 13:55:10
+ C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.
+7601.17514_none_41e6975e2bd6f2b2\comctl32.DLL
+ 74EB0000 11/20/2010 14:21:08 C:\Windows\System32\Secur32.dll
+ 74EF0000 07/14/2009 03:16:14 C:\Windows\system32\profapi.dll
+ 74F00000 11/20/2010 14:21:34 C:\Windows\system32\USERENV.dll
+ 75490000 07/14/2009 03:15:08 C:\Windows\syswow64\CRYPTBASE.dll
+ 754A0000 11/20/2010 14:08:58 C:\Windows\syswow64\SspiCli.dll
+ 75500000 07/14/2009 03:15:52 C:\Windows\syswow64\msvcrt.dll
+ 756E0000 07/14/2009 03:11:24 C:\Windows\syswow64\LPK.dll
+ 756F0000 04/08/2011 00:43:50 C:\Windows\syswow64\urlmon.dll
+ 75800000 11/20/2010 14:08:58 C:\Windows\syswow64\kernel32.dll
+ 75910000 11/20/2010 14:08:58 C:\Windows\syswow64\user32.dll
+ 75A10000 07/14/2009 03:16:14 C:\Windows\SysWOW64\sechost.dll
+ 75A30000 07/14/2009 03:16:12 C:\Windows\syswow64\NSI.dll
+ 75A40000 07/14/2009 03:15:44 C:\Windows\syswow64\MSCTF.dll
+ 75B10000 11/20/2010 14:21:20 C:\Windows\syswow64\SHLWAPI.dll
+ 75B70000 07/14/2009 03:09:02 C:\Windows\syswow64\Normaliz.dll
+ 75B80000 07/14/2009 03:15:12 C:\Windows\syswow64\DEVOBJ.dll
+ 75BA0000 11/20/2010 14:08:52 C:\Windows\syswow64\GDI32.dll
+ 75C30000 11/20/2010 14:21:38 C:\Windows\syswow64\WLDAP32.dll
+ 75C80000 11/20/2010 14:08:58 C:\Windows\syswow64\KERNELBASE.dll
+ 75CD0000 11/20/2010 14:08:52 C:\Windows\system32\IMM32.DLL
+ 75D30000 11/20/2010 14:08:58 C:\Windows\syswow64\RPCRT4.dll
+ 75E50000 11/20/2010 14:18:04 C:\Windows\syswow64\ADVAPI32.dll
+ 75EF0000 11/20/2010 14:18:24 C:\Windows\syswow64\comdlg32.dll
+ 75F70000 11/20/2010 14:18:14 C:\Windows\syswow64\CFGMGR32.dll
+ 75FA0000 11/20/2010 14:20:50 C:\Windows\syswow64\oleaut32.dll
+ 76030000 11/20/2010 14:21:20 C:\Windows\syswow64\SHELL32.dll
+ 76C80000 04/08/2011 00:43:50 C:\Windows\syswow64\WININET.dll
+ 76DA0000 11/20/2010 14:21:16 C:\Windows\syswow64\SETUPAPI.dll
+ 76F40000 11/20/2010 14:20:50 C:\Windows\syswow64\ole32.dll
+ 770A0000 11/20/2010 14:21:34 C:\Windows\syswow64\USP10.dll
+ 77140000 07/14/2009 03:15:04 C:\Windows\syswow64\CLBCatQ.DLL
+ 771D0000 11/20/2010 14:21:40 C:\Windows\syswow64\WS2_32.dll
+ 772A0000 04/08/2011 00:43:50 C:\Windows\syswow64\iertutil.dll
+ 77D80000 07/14/2009 03:16:14 C:\Windows\syswow64\PSAPI.DLL
+ 77DB0000 11/20/2010 14:24:36 C:\Windows\SysWOW64\ntdll.dll
+==========================================

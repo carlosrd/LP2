@@ -1,0 +1,129 @@
+Error 00116. 0x300010 (Thread 0x09A4):
+Resource leak: The object (0xDF7768) was never deleted
+
+The object (0x00DF7768) [size: 8 bytes] was created with new
+Call Tree:
+   0x00408C59(=Torneo.exe:0x01:007C59) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#872
+   0x00408BD8(=Torneo.exe:0x01:007BD8) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#863
+   0x00408F3B(=Torneo.exe:0x01:007F3B) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#917
+   0x00402C25(=Torneo.exe:0x01:001C25) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UFormClasificacion.cpp#133
+   0x004173D6(=Torneo.exe:0x01:0163D6)
+   0x0043401B(=Torneo.exe:0x01:03301B)
+
+------------------------------------------
+Error 00117. 0x300010 (Thread 0x09A4):
+Resource leak: The object (0xE08A60) was never deleted
+
+The object (0x00E08A60) [size: 8 bytes] was created with new
+Call Tree:
+   0x00408C59(=Torneo.exe:0x01:007C59) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#872
+   0x00408C4F(=Torneo.exe:0x01:007C4F) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#870
+   0x00408BD8(=Torneo.exe:0x01:007BD8) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#863
+   0x00408F3B(=Torneo.exe:0x01:007F3B) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#917
+   0x00402C25(=Torneo.exe:0x01:001C25) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UFormClasificacion.cpp#133
+   0x004173D6(=Torneo.exe:0x01:0163D6)
+
+------------------------------------------
+Error 00118. 0x300010 (Thread 0x09A4):
+Resource leak: The object (0xDF83E0) was never deleted
+
+The object (0x00DF83E0) [size: 8 bytes] was created with new
+Call Tree:
+   0x00408C59(=Torneo.exe:0x01:007C59) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#872
+   0x00408D2A(=Torneo.exe:0x01:007D2A) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#884
+   0x00408C4F(=Torneo.exe:0x01:007C4F) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#870
+   0x00408BD8(=Torneo.exe:0x01:007BD8) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#863
+   0x00408F3B(=Torneo.exe:0x01:007F3B) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#917
+   0x00402C25(=Torneo.exe:0x01:001C25) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UFormClasificacion.cpp#133
+
+------------------------------------------
+Error 00119. 0x300010 (Thread 0x09A4):
+Resource leak: The object (0xDF44FC) was never deleted
+
+The object (0x00DF44FC) [size: 8 bytes] was created with new
+Call Tree:
+   0x00408C59(=Torneo.exe:0x01:007C59) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#872
+   0x00408C4F(=Torneo.exe:0x01:007C4F) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#870
+   0x00408C4F(=Torneo.exe:0x01:007C4F) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#870
+   0x00408BD8(=Torneo.exe:0x01:007BD8) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#863
+   0x00408F3B(=Torneo.exe:0x01:007F3B) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UTorneo.cpp#917
+   0x00402C25(=Torneo.exe:0x01:001C25) C:\Documents and Settings\Administrador\Escritorio\Practica 3\Practica 3\UFormClasificacion.cpp#133
+
+------------------------------------------
+Functions called:
+ memset (2 times)
+ delete (164 times)
+ vsnprintf (1008 times)
+ SysReallocMem (69 times)
+ SysFreeMem (6200 times)
+ SysGetMem (6200 times)
+ lstrlenA (1 times)
+ lstrcpyA (4 times)
+ realloc (1 times)
+ memcpy (1 times)
+ delete[] (10 times)
+ free (32 times)
+ new[] (24 times)
+ new (180 times)
+ calloc (8 times)
+ malloc (23 times)
+Resource types used:
+ object array (24 allocs, 17 max)
+ object (180 allocs, 57 max)
+ memory block (6232 allocs, 628 max)
+Modules used:
+ 00400000 01/23/2011 02:43:34 C:\Documents and
+ Settings\Administrador\Escritorio\Practica 3\Practica 3\Torneo.exe
+ 0CD00000 01/31/2000 05:00:00 C:\Archivos de
+ programa\Borland\CBuilder5\Bin\CG32.DLL
+ 10000000 10/07/2010 00:36:00 C:\Documents and Settings\Administrador\Datos de
+ programa\Dropbox\bin\DropboxExt.14.dll
+ 32500000 01/31/2000 05:00:00 C:\Archivos de
+ programa\Borland\CBuilder5\Bin\CC3250MT.DLL
+ 41000000 01/31/2000 05:00:00 C:\Archivos de
+ programa\Borland\CBuilder5\Bin\BORLNDMM.DLL
+ 58C30000 08/25/2006 16:46:30 C:\WINDOWS\system32\COMCTL32.DLL
+ 597F0000 10/15/2008 17:59:30 C:\WINDOWS\system32\NETAPI32.dll
+ 5B150000 07/09/2009 14:15:00 C:\WINDOWS\system32\uxtheme.dll
+ 5D4B0000 08/19/2004 14:42:00 C:\WINDOWS\system32\dbghelp.dll
+ 71AA0000 08/19/2004 14:42:16 C:\WINDOWS\system32\MPR.dll
+ 71B90000 08/19/2004 14:42:22 C:\WINDOWS\System32\SAMLIB.dll
+ 71BB0000 08/19/2004 14:42:20 C:\WINDOWS\System32\ntlanman.dll
+ 71C20000 08/19/2004 14:42:20 C:\WINDOWS\System32\NETRAP.dll
+ 71C30000 08/19/2004 14:42:20 C:\WINDOWS\System32\NETUI1.dll
+ 71C70000 08/19/2004 14:42:20 C:\WINDOWS\System32\NETUI0.dll
+ 746B0000 02/26/2008 13:00:48 C:\WINDOWS\system32\MSCTF.dll
+ 75DD0000 08/19/2004 14:42:16 C:\WINDOWS\system32\MLANG.dll
+ 75F10000 08/19/2004 14:42:04 C:\WINDOWS\System32\drprov.dll
+ 75F20000 08/19/2004 14:42:00 C:\WINDOWS\System32\davclnt.dll
+ 76360000 08/19/2004 14:41:54 C:\WINDOWS\system32\COMDLG32.DLL
+ 76630000 08/19/2004 14:42:28 C:\WINDOWS\system32\USERENV.dll
+ 76940000 01/11/2006 22:40:50 C:\WINDOWS\system32\LINKINFO.dll
+ 76950000 08/19/2004 14:42:22 C:\WINDOWS\system32\ntshrui.dll
+ 76AE0000 07/17/2009 19:57:18 C:\WINDOWS\system32\ATL.DLL
+ 76BF0000 12/24/2009 08:06:48 C:\WINDOWS\system32\WINTRUST.dll
+ 76C50000 08/19/2004 14:42:10 C:\WINDOWS\system32\IMAGEHLP.dll
+ 76F90000 01/11/2006 22:41:22 C:\WINDOWS\system32\CLBCATQ.DLL
+ 77010000 08/19/2004 14:41:56 C:\WINDOWS\system32\COMRes.dll
+ 770F0000 12/04/2007 19:41:04 C:\WINDOWS\system32\oleaut32.dll
+ 773A0000 08/25/2006 16:46:26
+ C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.
+2600.2982_x-ww_ac3f9c03\comctl32.dll
+ 774B0000 01/11/2006 22:41:32 C:\WINDOWS\system32\ole32.dll
+ 778F0000 08/19/2004 14:42:26 C:\WINDOWS\system32\SETUPAPI.dll
+ 77A50000 08/19/2004 14:41:56 C:\WINDOWS\system32\CRYPT32.dll
+ 77AF0000 09/04/2009 21:46:36 C:\WINDOWS\system32\MSASN1.dll
+ 77B10000 08/19/2004 14:41:44 C:\WINDOWS\system32\appHelp.dll
+ 77BD0000 08/19/2004 14:42:28 C:\WINDOWS\system32\VERSION.dll
+ 77BE0000 08/19/2004 14:42:18 C:\WINDOWS\system32\msvcrt.dll
+ 77DA0000 02/09/2009 11:03:22 C:\WINDOWS\system32\advapi32.dll
+ 77E50000 04/15/2009 16:30:36 C:\WINDOWS\system32\RPCRT4.dll
+ 77EF0000 10/23/2008 13:52:04 C:\WINDOWS\system32\GDI32.dll
+ 77F40000 04/16/2010 16:21:28 C:\WINDOWS\system32\SHLWAPI.dll
+ 7C340000 02/21/2003 02:42:22 C:\WINDOWS\system32\MSVCR71.dll
+ 7C3A0000 03/18/2003 20:14:52 C:\WINDOWS\system32\MSVCP71.dll
+ 7C800000 03/21/2009 15:20:08 C:\WINDOWS\system32\kernel32.dll
+ 7C910000 02/09/2009 11:03:22 C:\WINDOWS\system32\ntdll.dll
+ 7E390000 03/08/2007 16:50:26 C:\WINDOWS\system32\user32.dll
+ 7E6A0000 07/03/2008 14:15:12 C:\WINDOWS\system32\SHELL32.dll
+==========================================
